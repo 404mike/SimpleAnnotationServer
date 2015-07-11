@@ -1,14 +1,3 @@
 ---
-
-- name: App | Setting Folder Permissions
-  command: chmod -R 755 {{ app.laravel_storage }}
-
-- name: App | Composer install
-  command: composer install chdir={{ app.laravel_install_dir }}
-  
-- name: App | Create copy of .env file
-  command: cp .env.example .env chdir={{ app.laravel_install_dir }}
-
-- name: App | Create laravel jey
-  command: 'php /vagrant/artisan key:generate'   
-  
+- name: Clone git repo
+  command: git clone https://github.com/glenrobson/SimpleAnnotationServer.git /vagrant/app/SimpleAnnotationServer
