@@ -19,7 +19,7 @@ Vagrant.configure("2") do |config|
     # VM ip address
     config.vm.network :private_network, ip: "192.168.50.50"
     # storage
-    config.vm.synced_folder "app/storage", "/vagrant/app/storage", :owner => 'www-data', :group => 'www-data'
+    config.vm.synced_folder "app", "/vagrant/app", :owner => 'www-data', :group => 'www-data'
 
     # Vagrant memory
     config.vm.provider "virtualbox" do |v|
