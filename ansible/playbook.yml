@@ -15,10 +15,11 @@
     - vars/ws_defaults.yml
     - vars/mongodb.yml
   roles:
-    - init
+    # - init
     # - nginx
-    - java
-    - maven
+    - git
+    # - java
+    # - maven
     # - solr
     # - elasticsearch
     # - php5-cli
