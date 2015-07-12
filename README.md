@@ -23,12 +23,15 @@ Start vagrant
 `vagrant up`
 
 Once vagrant has finished building the vm, ssh into your new vm
+
 `vagrant ssh`
 
 cd into the SimpleAnnotationServer directory
+
 `cd /vagrant/app/SimpleAnnotationServer/`
 
 run the start command
+
 `mvn jetty:run`
 
 You should now be able to view the application in your browser [192.168.50.50:8888](http://192.168.50.50:8888)
