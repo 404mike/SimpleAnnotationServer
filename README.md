@@ -1,6 +1,6 @@
 ## SimpleAnnotationServer with vagrant and ansible
 
-Builds a ubuntu virtual machine and clones and runs [SimpleAnnotationServer](https://github.com/glenrobson/SimpleAnnotationServer).
+Builds a ubuntu virtual machine, clones and runs [SimpleAnnotationServer](https://github.com/glenrobson/SimpleAnnotationServer).
 
 Prerequisites
 -------------
